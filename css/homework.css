@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*CSS Document */
+
+.teal-col{
+    background-color: teal;
+    color: white;
+}
+.yellow-col{
+    background-color: rgb(161, 161, 0);
+    color: white;
+}
+.orange-col{
+    background-color: rgb(199, 129, 0);
+    color: white;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.bg-body-tertiary{
+    background-color:rgb(126, 82, 2) !important;
+}
+
+.nav-link {
+    color: rgb(194, 183, 163);
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+.navbar-brand {
+    color:#fff;
+}
+.nav-link-active{
+     color:#fff;
+}
+.navbar-toggler{
+    filter: invert(100%);
+}
+h1{
+    font-size: 2.188em;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.888em;
+    font-weight: 700;
+}
+.footer-sanks{
+    text-align:center;
+}
+p{
+    font-size: 1.388em;
+    font-weight: 400;
+}
+.btn-primary{
+    background-color: #b64009;
+    border-color:  #b64009;
+}
+.btn-primary:hover{
+    background-color: rgb(194, 165, 2);
+    border-color:  rgb(194, 165, 2);
+}
+.carousel-padding{
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color:rgb(194, 165, 2);
+}
